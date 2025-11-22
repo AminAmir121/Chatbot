@@ -16,7 +16,7 @@ span
 }
 
 * {
-    font-family: Eras ITC;
+    font-family: 'Eras ITC' , sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
