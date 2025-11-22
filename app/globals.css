@@ -1,6 +1,6 @@
 @font-face {
     font-family: Eras ITC;
-    src: url("D:\NEXT JS\Projects\ERASMD.TTF");
+    src: url('/font/ERASMD.TFF');
 }
 
 html {

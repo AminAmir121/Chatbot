@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyDgVhirrOO004IBr63fjkua5T1b-bwBHRM")
+const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API_KEY)
 
 export const Fetch = createAsyncThunk(
     'gemini, fetching',
