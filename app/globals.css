@@ -1,8 +1,4 @@
-@font-face {
-  font-family: Eras ITC Medium;
-  src: url('/fonts/ERASMD.TTF') format('truetype');
 
-}
 
 html {
   font-size: 60%;
@@ -11,10 +7,11 @@ html {
 
 html,
 body {
-  font-family: 'Eras ITC', sans-serif;
+  font-family: var(--font-eras), sans-serif;
 }
 
 span {
+   font-family: var(--font-eras), sans-serif;
   background: linear-gradient(to bottom, #4a90e2, #a355b9, #ff6b6b);
   background-clip: text;
   -webkit-background-clip: text;
@@ -57,11 +54,6 @@ span {
   font-weight: 500;
 }
 
-.intro h1 {
-  font-size: 7rem;
-  font-weight: 100;
-  color: rgb(174, 174, 174);
-}
 
 .services {
   padding: 0.5rem;
@@ -127,6 +119,8 @@ span {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: var(--font-eras), sans-serif;
+  
 }
 
 #v-mode {

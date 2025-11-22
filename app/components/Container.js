@@ -18,7 +18,7 @@ export default function Container(){
         
             <div className="intro">
                 <h2><span>Hello There!</span></h2>
-                <h1>How May I Help You?</h1>
+                <h2><span>How May I Help You?</span></h2>
 
                 <div className="services">
                     <div className="box">
