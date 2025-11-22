@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 // Local Eras ITC font
 const erasFont = localFont({
-  src: "../public/fonts/ERASMD.ttf", // make sure this path is correct
+  src: "../public/fonts/ERASMD.TTF", // make sure this path is correct
   display: "swap",
   variable: "--font-eras", // optional CSS variable
 });
