@@ -1,6 +1,6 @@
 @font-face {
     font-family: Eras ITC;
-    src: url('/font/ERASMD.TFF');
+    src: url('/font/ERASMD.TFF') format('truetype');
 }
 
 html {
